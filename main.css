@@ -348,7 +348,7 @@ canvas {
 .snap {
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
-    overflow: scroll
+    overflow: scroll;
 }
 
 .art {
@@ -403,6 +403,7 @@ canvas {
     top: 0;
     right: 0;
     left: 0;
+    height: 100vh;
     z-index: 1;
     background: rgba(0, 0, 0, 0.25);
 }
@@ -431,8 +432,8 @@ canvas {
 }
 
 .float {
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
 }
 
 .fa {
@@ -445,8 +446,8 @@ canvas {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
     bottom: 10vh;
     right: -75px;
     background-color: #ffffff;
@@ -500,7 +501,7 @@ a {
 }
 
 .sub-head h6 {
-    font-size: 16px;
+    font-size: 12px;
 }
 
 .sub-head:hover {
@@ -514,7 +515,7 @@ a {
 }
 
 .scroll h6 {
-    font-size: 16px;
+    font-size: 12px;
 }
 
 .layer {
