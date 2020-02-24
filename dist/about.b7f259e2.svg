@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="439.5" height="173" viewBox="0 0 439.5 173">
+  <defs>
+    <style>
+     @font-face {
+    src: url(fonts/Sailec-Medium.ttf);
+    font-family: sailec-Medium;
+    }
+
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 3px;
+      }
+
+      .cls-1, .cls-2 {
+        font-size: 71px;
+        font-family: sailec-Medium;
+        letter-spacing: 0.318em;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.024" y1="1" x2="1.09" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#facd68"/>
+      <stop offset="1" stop-color="#fc76b3"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_40" data-name="Group 40" transform="translate(-164.5 -3102)">
+    <text id="ABOUT" class="cls-1" transform="translate(601 3159)"><tspan x="-362.952" y="0">ABOUT</tspan></text>
+    <text id="ME:" class="cls-2" transform="translate(236 3247)"><tspan x="0" y="0">ME:</tspan></text>
+    <rect id="Rectangle_16" data-name="Rectangle 16" class="cls-3" width="245" height="10" transform="translate(409.5 3275) rotate(180)"/>
+  </g>
+</svg>
