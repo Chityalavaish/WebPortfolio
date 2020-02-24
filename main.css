@@ -76,7 +76,7 @@ section {
     box-sizing: content-box;
     height: auto;
     padding: 8px 0px;
-    width: 2.5rem;
+    width: 1.5rem;
 }
 
 .brief {
@@ -495,9 +495,12 @@ a {
 
 .sub-head {
     letter-spacing: 2px;
-    font-size: small;
-    margin-top: 32vh;
+    margin-top: 18vh;
     margin-bottom: -40vh;
+}
+
+.sub-head h6 {
+    font-size: 16px;
 }
 
 .sub-head:hover {
@@ -508,7 +511,10 @@ a {
 
 .scroll {
     letter-spacing: 2px;
-    font-size: 18px;
+}
+
+.scroll h6 {
+    font-size: 16px;
 }
 
 .layer {
