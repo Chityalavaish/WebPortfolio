@@ -302,6 +302,10 @@ canvas {
     .scroll h6 {
         font-size: 12px !important;
     }
+    .snap {
+        scroll-snap-type: y proximity !important;
+        scroll-margin: 20px;
+    }
 }
 
 .navbar-header {
@@ -347,9 +351,11 @@ canvas {
 
 .snap {
     scroll-snap-type: y mandatory;
-    overflow-y: auto;
+    overflow-y: scroll;
     overflow-x: hidden;
+    height: 100%;
     scroll-snap-points-y: repeat(100%);
+    scroll-margin: 10px;
     -webkit-overflow-scrolling: touch;
 }
 
