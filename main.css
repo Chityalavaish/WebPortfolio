@@ -431,6 +431,7 @@ canvas {
     color: rgb(255, 255, 255);
     opacity: 1;
     z-index: 3;
+    height: 30vh;
     box-shadow: rgba(255, 255, 255, 0.24);
 }
 
@@ -502,9 +503,11 @@ a {
 }
 
 .sub-head {
+    height: 100vh;
     letter-spacing: 2px;
     margin-top: 18vh;
     margin-bottom: -40vh;
+    z-index: 30;
 }
 
 .sub-head h6 {
