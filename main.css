@@ -303,7 +303,6 @@ canvas {
         font-size: 12px !important;
     }
     .snap {
-        scroll-snap-type: y proximity !important;
         scroll-margin: 20px;
     }
 }
@@ -355,8 +354,8 @@ canvas {
     overflow-x: hidden;
     height: 100%;
     scroll-snap-points-y: repeat(100%);
-    scroll-margin: 10px;
     -webkit-overflow-scrolling: touch;
+    scroll-margin: 10px;
 }
 
 .art {
