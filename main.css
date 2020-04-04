@@ -349,6 +349,7 @@ canvas {
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
     overflow: scroll;
+    scroll-padding: 10px;
 }
 
 .art {
