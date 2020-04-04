@@ -349,8 +349,6 @@ canvas {
     scroll-snap-type: y mandatory;
     overflow-y: auto;
     overflow-x: hidden;
-    overflow: scroll;
-    scroll-snap-coordinate: 0 0;
     scroll-snap-points-y: repeat(100%);
     -webkit-overflow-scrolling: touch;
 }
@@ -358,7 +356,6 @@ canvas {
 .art {
     scroll-snap-align: start;
     width: 100vw;
-    height: 100%;
     text-align: center;
     display: flex;
     align-items: center;
@@ -371,7 +368,6 @@ canvas {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    overflow: hidden;
 }
 
 .half-view {
