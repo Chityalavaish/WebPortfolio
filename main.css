@@ -57,7 +57,7 @@ section {
 }
 
 nav {
-    z-index: 32;
+    z-index: 40;
 }
 
 
@@ -311,6 +311,9 @@ canvas {
     }
     .about p {
         font-size: 12px;
+    }
+    .menu {
+        height: 100vmax;
     }
 }
 
