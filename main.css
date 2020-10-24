@@ -313,7 +313,7 @@ canvas {
         font-size: 12px;
     }
     .menu {
-        height: 100vmax;
+        height: 100% !important;
     }
 }
 
