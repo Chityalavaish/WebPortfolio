@@ -13,21 +13,13 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <style>
-        .about h1,
-        h2,
-        h3,
-        h4,
-        h5 {
-            color: #000000;
-        }
-        
         img {
             border-radius: 6%;
         }
     </style>
 </head>
 
-<body style="background-color: rgb(255, 255, 255);" class="about" id="bodyOpac">
+<body class="about" id="bodyOpac">
     <div class="d-flex h-100 mx-auto flex-column">
         <header class="masthead mb-auto">
 
@@ -111,14 +103,14 @@
                 </div>
             </div>
 
-            <div class="pb-4">
+            <div class="pt-5 mt-4 pb-4 pl-4">
                 <div class="container">
                     <div>
                         <h2>
                             Resume
                         </h2>
                     </div>
-                    <div>
+                    <div class="pt-2">
                         <h4>
                             Working Experience
                         </h4>
@@ -128,14 +120,14 @@
                             <div class="col" data-aos="fade-up" data-aos-duration="2500">
                                 <div class="row p-0">
                                     <div>
-                                        <img class="pb-2 m-0" width="54" src="images/icons/bravelogo.png">
+                                        <img class="pb-2 m-0" width="50" src="images/icons/bravelogo.png">
                                     </div>
                                     <div class="col p-0">
-                                        <h5 class="pl-4"><span style="font-size: 12px; letter-spacing: 2px; text-transform: uppercase;">
+                                        <h5 class="pl-3"><span style="font-size: 12px; letter-spacing: 2px; text-transform: uppercase;">
                                             Designer
                                         </span></h5>
-                                        <p class="pl-4" style="font-size: 14px !important;">BraveOrbit</p>
-                                        <p class="pl-4" style="font-size: 12px !important;">2020</p>
+                                        <p class="pl-3" style="font-size: 14px !important;">BraveOrbit</p>
+                                        <p class="pl-3" style="font-size: 12px !important;">2020</p>
                                     </div>
                                 </div>
                             </div>
@@ -149,14 +141,14 @@
                             <div class="col" data-aos="fade-up" data-aos-duration="2500">
                                 <div class="row p-0">
                                     <div>
-                                        <img class="pb-2 m-0" width="54" src="images/icons/viperlogo.png">
+                                        <img class="pb-2 m-0" width="50" src="images/icons/viperlogo.png">
                                     </div>
                                     <div class="col p-0">
-                                        <h5 class="pl-4"><span style="font-size: 12px;  letter-spacing: 2px; text-transform: uppercase;">
+                                        <h5 class="pl-3"><span style="font-size: 12px;  letter-spacing: 2px; text-transform: uppercase;">
                                             Developer
                                         </span></h5>
-                                        <p class="pl-4" style="font-size: 14px !important;">Viperdev</p>
-                                        <p class="pl-4" style="font-size: 12px !important;">2019</p>
+                                        <p class="pl-3" style="font-size: 14px !important;">Viperdev</p>
+                                        <p class="pl-3" style="font-size: 12px !important;">2019</p>
                                     </div>
                                 </div>
                             </div>
@@ -170,16 +162,16 @@
                             <div class="col" data-aos="fade-up" data-aos-duration="2500">
                                 <div class="row p-0">
                                     <div>
-                                        <img class="pb-2 m-0" width="54" src="images/icons/jslLogo.png">
+                                        <img class="pb-2 m-0" width="50" src="images/icons/jslLogo.png">
                                     </div>
                                     <div class="col p-0">
-                                        <h5 class="pl-4">
+                                        <h5 class="pl-3">
                                             <span style="font-size: 12px; letter-spacing: 2px; text-transform: uppercase;">
                                                 Engineer
                                             </span>
                                         </h5>
-                                        <p class="pl-4" style="font-size: 14px !important;">Jindal Stainless Ltd.</p>
-                                        <p class=" pl-4" style="font-size: 12px !important; ">2018-2019</p>
+                                        <p class="pl-3" style="font-size: 14px !important;">Jindal Stainless Ltd.</p>
+                                        <p class=" pl-3" style="font-size: 12px !important; ">2018-2019</p>
                                     </div>
                                 </div>
                             </div>
@@ -358,8 +350,8 @@
             </div>
         </div>
         <footer class="mastfoot mt-auto">
-            <div class=" text-center" style="background-color: rgb(0, 0, 0);">
-                <div class="footer-copyright text-center py-4" style="color: #007bff;">© 2020 Vaishnavi chityala
+            <div class=" text-center" style="background-color: #121212;">
+                <div class="footer-copyright text-center py-4" style="color: #5100E8;">© 2020 Vaishnavi chityala
                 </div>
             </div>
         </footer>
@@ -374,36 +366,36 @@
 
 
 
-        tl.to('.bar1', 0.8, {
+        tl.to('.bar1', 0.9, {
             y: 6,
             rotation: 45,
             ease: "power2.inOut"
         });
 
-        tl.to('.bar2', 0.8, {
+        tl.to('.bar2', 0.9, {
             y: -3,
             rotation: -45,
             ease: "power2.inOut",
             delay: -0.8
         });
 
-        tl.to('.layer', 1, {
+        tl.to('.layer', 0.8, {
             opacity: "0",
             ease: "power2.inOut",
         }, "<1");
 
-        tl.to('.menu', 1, {
+        tl.to('.menu', 0.7, {
             left: "0%",
             ease: "power2.inOut",
-            delay: 1,
+            delay: 0.8,
         });
 
-        tl.staggerFrom('.menu ul li', 1, {
+        tl.staggerFrom('.menu ul li', 0.9, {
             x: -200,
             opacity: 0,
             ease: "power2.inOut"
 
-        }, 0.3);
+        }, 0.4);
 
         tl.reverse();
 

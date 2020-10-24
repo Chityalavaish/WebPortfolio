@@ -157,31 +157,31 @@
     <script>
         AOS.init();
         var tl = new TimelineLite();
-        tl.to('.bar1', 0.8, {
+        tl.to('.bar1', 0.9, {
             y: 6,
             rotation: 45,
             ease: "power2.inOut"
         });
 
-        tl.to('.bar2', 0.8, {
+        tl.to('.bar2', 0.9, {
             y: -3,
             rotation: -45,
             ease: "power2.inOut",
             delay: -0.8
         });
 
-        tl.to('.menu', 2, {
+        tl.to('.menu', 0.7, {
             left: "0%",
             ease: "power2.inOut",
             delay: -1
         });
 
-        tl.staggerFrom('.menu ul li', 1, {
+        tl.staggerFrom('.menu ul li', 0.9, {
             x: -200,
             opacity: 0,
             ease: "power2.inOut"
 
-        }, 0.3);
+        }, 0.4);
 
         tl.reverse();
 

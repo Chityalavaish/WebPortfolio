@@ -14,6 +14,33 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script defer src="script.js"></script>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <style>
+        h6 {
+            font-size: 2.2vh;
+        }
+        
+        p {
+            letter-spacing: 1px;
+            font-size: 2vh;
+            text-align: justify;
+        }
+        
+        img {
+            border-radius: 30px;
+        }
+        
+        @media(max-width: 768px) {
+            h6 {
+                font-size: 1.9vh;
+            }
+            p {
+                font-size: 1.5vh;
+            }
+            img {
+                border-radius: 10px !important;
+            }
+        }
+    </style>
 </head>
 
 <body class="icon-bg">
@@ -59,7 +86,7 @@
                 </div>
             </div>
         </header>
-        <div>
+        <div class="mb-5">
             <div id="illustrate-three" class="half-view">
                 <div class="section">
                     <div class="container d-flex flex-column">
@@ -94,64 +121,63 @@
                     </a>
                 </div>
             </div>
-            <div class="project container content-text p-4">
-                <div data-aos="fade-up" data-aos-duration="2000">
 
-                    <div class="p-3">
-                        <div class="collab">
-                            <h6>
-                                <strong>
-                                        DETAILS
-                                </strong>
-                            </h6>
-                        </div>
-                        <div class="p-4" data-aos="fade-up" data-aos-duration="2500">
+            <div class="project container content-text p-5 mt-5">
+                <div class="p-3">
+                    <div class="collab" data-aos="fade-up" data-aos-duration="2500">
+                        <h6>
+                            <strong>
+                                    DETAILS
+                            </strong>
+                        </h6>
+                        <div style="font-size:16px; letter-spacing: 1px;;">
                             <p>
-                                Logo designs that I created in illustrator for internships over past three years. Worked on passion projects and for clients Navriti Trust Fund, IFDC etc
+                                Logo designs that I created in illustrator for internships over past three years. Worked on passion projects and for clients Navriti Trust Fund, IFDC etc</p>
+                        </div>
+
+                    </div>
+                    <div class="collab" data-aos="fade-up" data-aos-duration="2500">
+                        <h6>
+                            <strong>
+                                    TOOLS
+                            </strong>
+                        </h6>
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="2500">
+                        <div>
+                            <p>
+                                Adobe Xd
                             </p>
                         </div>
-                        <div class="collab">
-                            <h6>
-                                <strong>
-                                        TOOLS
-                                </strong>
-                            </h6>
+                        <div>
+                            <p>
+                                Adobe illustrator
+                            </p>
                         </div>
-                        <div data-aos="fade-up" data-aos-duration="2500">
-                            <ul>
-                                <li>
-                                    <h6>
-                                        Adobe Illustrator
-                                    </h6>
-                                </li>
-                                <li>
-                                    <h6>
-                                        Wacom Tablet
-                                    </h6>
-                                </li>
-                            </ul>
-                        </div>
+
                     </div>
                 </div>
+
             </div>
+
             <div>
-                <div class="pt-2 pb-2" data-aos="fade-up" data-aos-duration="2000">
-                    <img src="images/icons/protfolioTinypng/Honey-bae.jpg" height="auto" width="100%">
+                <div class="pt-2 pb-2 d-flex justify-content-center" data-aos="fade-up" data-aos-duration="2000">
+                    <img class="w-75" src="images/icons/protfolioTinypng/Honey-bae.jpg" height="auto">
                 </div>
             </div>
             <div>
-                <div class="pt-2 pb-2" data-aos="fade-up" data-aos-duration="2000">
-                    <img src="images/icons/protfolioTinypng/TrustFund-logo.jpg" height="auto" width="100%">
+                <div class="pt-2 pb-2 d-flex justify-content-center" data-aos="fade-up" data-aos-duration="2000">
+                    <img class="w-75" src="images/icons/protfolioTinypng/TrustFund-logo.jpg" height="auto">
                 </div>
             </div>
             <div>
-                <div class="pt-2 pb-2" data-aos="fade-up" data-aos-duration="2000">
-                    <img src="images/icons/protfolioTinypng/Juice-factory.jpg" height="auto" width="100%">
+                <div class="pt-2 pb-2 d-flex justify-content-center" data-aos="fade-up" data-aos-duration="2000">
+                    <img class="w-75" src="images/icons/protfolioTinypng/Juice-factory.jpg" height="auto">
                 </div>
             </div>
             <div>
-                <div class="pt-2 pb-2" data-aos="fade-up" data-aos-duration="2000">
-                    <img src="images/icons/protfolioTinypng/Phoenix.jpg" height="auto" width="100%">
+                <div class="pt-2 pb-2 d-flex justify-content-center" data-aos="fade-up" data-aos-duration="2000">
+                    <img class="w-75" src="images/icons/protfolioTinypng/Phoenix.jpg" height="auto">
                 </div>
             </div>
         </div>
@@ -194,31 +220,31 @@
 
         });
         var tl = new TimelineLite();
-        tl.to('.bar1', 0.8, {
+        tl.to('.bar1', 0.9, {
             y: 6,
             rotation: 45,
             ease: "power2.inOut"
         });
 
-        tl.to('.bar2', 0.8, {
+        tl.to('.bar2', 0.9, {
             y: -3,
             rotation: -45,
             ease: "power2.inOut",
             delay: -0.8
         });
 
-        tl.to('.menu', 2, {
+        tl.to('.menu', 0.7, {
             left: "0%",
             ease: "power2.inOut",
             delay: -1
         });
 
-        tl.staggerFrom('.menu ul li', 1, {
+        tl.staggerFrom('.menu ul li', 0.9, {
             x: -200,
             opacity: 0,
             ease: "power2.inOut"
 
-        }, 0.3);
+        }, 0.4);
 
         tl.reverse();
 

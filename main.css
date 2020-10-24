@@ -14,7 +14,7 @@ html {
 
 body {
     height: 100vh;
-    background: #000000;
+    background: #121212;
     margin: 0px !important;
     font-family: sailec-Medium;
     font-size: 2vh;
@@ -84,7 +84,7 @@ nav {
 }
 
 .brief {
-    color: #007bff;
+    color: #5100E8;
     font-size: 1vw;
 }
 
@@ -129,7 +129,7 @@ a {
     bottom: 15vh;
     left: 50%;
     transform: translateX(-50%);
-    color: #007bff;
+    color: #5100E8;
 }
 
 #pin:hover {
@@ -194,9 +194,16 @@ a {
     font-size: 1.7vh;
 }
 
-p,
+p {
+    color: #5f5f5f;
+}
+
 a {
-    color: #007bff;
+    color: #5100E8;
+}
+
+a:hover {
+    color: #5100e89c;
 }
 
 .skill h2 {
@@ -244,7 +251,7 @@ h6 {
 
 footer {
     font-size: 2vh;
-    background: #007bff;
+    background: #5100E8;
     color: #ffffff;
 }
 
@@ -270,7 +277,7 @@ canvas {
         padding: none;
     }
     .skill {
-        color: #007bff;
+        color: #5100E8;
         font-size: 3.5vw;
     }
     .nav-parent ul {
@@ -340,7 +347,7 @@ canvas {
     z-index: 30;
     display: flex;
     position: fixed;
-    background-color: #010101;
+    background-color: #121212;
     height: 100vh;
     width: 100vw;
     text-align: center;
@@ -406,7 +413,7 @@ canvas {
     height: 50vh;
     position: absolute;
     bottom: 0;
-    top: 0;
+    top: -50% !important;
     right: 0;
     left: 0;
     z-index: 1;
@@ -426,15 +433,18 @@ canvas {
 }
 
 #illustrate-one {
-    background-image: url(images/icons/protfolioTinypng/digital-art.jpg);
+    /* background-image: url(images/icons/protfolioTinypng/digital-art.jpg); */
+    background-image: linear-gradient(to right, #70e1f5, #ffd197);
 }
 
 #illustrate-two {
-    background-image: url(images/icons/protfolioTinypng/Head.png);
+    /* background-image: url(images/icons/protfolioTinypng/Head.png); */
+    background-image: linear-gradient(to right, #3a7bd5, #00d2ff);
 }
 
 #illustrate-three {
-    background-image: url(images/icons/protfolioTinypng/icon-bg.png);
+    /* background-image: url(images/icons/protfolioTinypng/icon-bg.png); */
+    background-image: linear-gradient(to right, #182848, #4b6cb7);
 }
 
 .section {
@@ -454,7 +464,7 @@ canvas {
 }
 
 .fa {
-    color: #007bff;
+    color: #5100E8;
 }
 
 .float-back {
@@ -487,7 +497,7 @@ canvas {
 
 a .rotate {
     display: block;
-    color: #007bff;
+    color: #5100E8;
     transform: rotate(-90deg);
 }
 
@@ -523,7 +533,7 @@ a {
 
 .sub-head:hover {
     text-decoration: line-through;
-    text-decoration-color: #007bff;
+    text-decoration-color: #5100E8;
     -moz-text-decoration-color: rgb(255, 255, 255);
 }
 
@@ -546,7 +556,7 @@ a {
 
 nav {
     padding-bottom: 0;
-    background-color: rgb(0, 0, 0);
+    background-color: #121212;
 }
 
 #rounded-circle {
