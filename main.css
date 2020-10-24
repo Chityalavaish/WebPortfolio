@@ -226,6 +226,11 @@ a:hover {
     padding: 5px;
 }
 
+.myillus {
+    width: 50vw;
+    height: auto;
+}
+
 .left {
     padding: 3px;
     text-align: justify;
