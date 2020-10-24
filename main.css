@@ -56,6 +56,10 @@ section {
     height: 100vh !important;
 }
 
+nav {
+    z-index: 32;
+}
+
 
 /* nav {
     height: 10vh;
@@ -305,6 +309,9 @@ canvas {
     .snap {
         scroll-margin: 20px;
     }
+    .about p {
+        font-size: 12px;
+    }
 }
 
 .navbar-header {
@@ -332,7 +339,7 @@ canvas {
     position: fixed;
     background-color: #010101;
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     text-align: center;
     align-items: center;
     left: -100%;
