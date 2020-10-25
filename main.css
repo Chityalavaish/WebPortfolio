@@ -227,7 +227,7 @@ a:hover {
 }
 
 .myillus {
-    width: 50vw;
+    width: 30vw;
     height: auto;
 }
 
@@ -456,6 +456,8 @@ canvas {
     color: rgb(255, 255, 255);
     opacity: 1;
     z-index: 3;
+    margin-top: 30vh;
+    margin-bottom: auto;
     box-shadow: rgba(255, 255, 255, 0.24);
 }
 
