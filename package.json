@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "gsap": "^3.1.1",
+    "gsap": "^3.6.0",
     "object-assign": "^4.1.1",
     "raf": "^3.4.1",
     "rellax": "^1.10.0"
